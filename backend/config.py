@@ -8,7 +8,7 @@ from typing import Optional
 from dotenv import load_dotenv
 load_dotenv()
 
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain.memory import ConversationBufferMemory
 from langchain_community.embeddings import OpenAIEmbeddings as OpenRouterEmbeddings
 from langchain_community.vectorstores import Qdrant as LangchainQdrant

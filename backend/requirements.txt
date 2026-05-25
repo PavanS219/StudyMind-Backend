@@ -1,9 +1,20 @@
-fastapi==0.111.0
-uvicorn==0.29.0
-python-multipart==0.0.9
-faiss-cpu==1.8.0
-sentence-transformers==3.0.0
-PyMuPDF==1.24.3
-groq==0.9.0
-numpy==1.26.4
-pydantic==2.7.1
+fastapi
+uvicorn
+python-multipart
+PyMuPDF
+numpy
+pydantic
+python-dotenv
+
+# LangChain stack
+langchain
+langchain-community
+langchain-groq
+langchain-text-splitters
+
+# LLM / Embeddings
+groq
+openai
+
+# Vector store
+qdrant-client
